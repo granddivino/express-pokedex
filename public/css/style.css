@@ -1,0 +1,114 @@
+.text-center {
+    text-align: center;
+}
+li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+}    
+
+body {
+    background: #3fd621;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.pokemonLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cell {
+    background: #f5f3f3;
+    border: 2px solid black;
+    height: 23vw;
+    width: 20vw;
+    margin: 10px;
+    text-align: center;
+}
+
+.img {
+    height: 10vw;
+    width: 10vw;
+}
+
+.showContainer {
+    display: flex;
+    align-content: space-around;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+
+.pokeImage {
+    height: 17vw;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.name, .types, .abilities {
+    border: 2px solid black;
+    background:#f5f3f3;
+    height: 24vw;
+    width: 30vw;
+    margin: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-size:1.5vw;
+}
+
+.moves {
+    background: #f5f3f3;
+    border: 2px solid black;
+    margin: 10px;
+    width: 94vw;
+    font-family: 'Architects Daughter', cursive;
+    font-size:1.5vw;
+}
+
+.spMoves {
+    display: flex;
+    flex-wrap: wrap;
+}
+h3 {
+    text-align: center;
+}
+
+.header {
+    padding: .01vw 0vw .01vw 0vw;
+    background: rgb(179, 178, 178);
+    font-size: 2vw;
+}
+
+.avatar {
+    height: 10vw;
+    width: 10vw;
+}
+
+.frontHeader {
+    font-size:1.5vw;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btn {
+    background-color: #b6dda7;
+    border-radius: 8px;
+    height: 2vw;
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+} 
+.btn:hover {
+    background-color: #1ff31f
+} 
